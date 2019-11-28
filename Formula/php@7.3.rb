@@ -10,6 +10,8 @@ class PhpAT73 < Formula
     sha256 "2963f4e3417d0f92beb93e5d5c87325132ea0828514ecd5ffb041f956b81653f" => :high_sierra
   end
 
+  keg_only :versioned_formula
+
   depends_on "httpd" => [:build, :test]
   depends_on "pkg-config" => :build
   depends_on "apr"
