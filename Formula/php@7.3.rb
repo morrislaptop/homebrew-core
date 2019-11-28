@@ -1,4 +1,4 @@
-class PhpAt73 < Formula
+class PhpAT73 < Formula
   desc "General-purpose scripting language"
   homepage "https://www.php.net/"
   url "https://www.php.net/distributions/php-7.3.12.tar.xz"
